@@ -4,7 +4,6 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1.3px;
     background-color: rgb(0 143 211);
-    position: relative;
 }
 .banner{
     height: 57px;
@@ -68,20 +67,22 @@ nav ul li a:hover {
 }
 
 .login-box {
-    /* background-color:rgb(25 27 128); */
-    background-color:rgb(156 89 241 / 79%);
+    background-image: url(../images/Watercolor.jpeg);
+    /* background-color:rgba(76, 78, 173, 0.452);
+    background-color:rgb(156 89 241 / 79%); */
     position:absolute;
     top: 27%;
     left: 63%;
     width: 350px;
-    height: 360px;
+    height: 390px;
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.171);
 }
 
 h1{
+    white-space: 555px;
     text-align: center;
-    padding-top: 30px;
+    /* padding-top: 5px; */
     color: rgb(25 27 128);
     font-family: 'Ubuntu', sans-serif;
     font-weight:800;
@@ -89,29 +90,46 @@ h1{
 }
 
 .user{
+    margin-left: 10px;
     margin-top: 10px;
-    border: none;
+    border: 1px solid #26929d;
     outline: none;
     font-family: 'Ubuntu', sans-serif;
-    padding: 5px 25px;
+    padding: 7px 30px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.596);
 }
-
+.user:hover{
+    background-color: rgba(25, 97, 139, 0.308);
+    transition: 0.9s;
+}
 .pass{
+    margin-left: 10px;
     margin-top: 20px;
-    border: none;
+    border: 1px solid #26929d;
     outline: none;
     font-family: 'Ubuntu', sans-serif;
-    padding: 5px 25px;
+    padding: 7px 30px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.596);
     }
+.pass:hover{
+        background-color: rgba(25, 97, 139, 0.308);
+        transition: 0.9s;
+    }
+::placeholder{
+        color: rgb(6, 43, 112);
+        font-weight: bold;
+        font-size: 15px;  
+    }
+
 .bxs-user{
-    color: rgb(75, 15, 116);
+    color: rgb(25 27 128);
 }
 .bx-lock-alt{
-    color: rgb(75, 15, 116);
+    color: rgb(25 27 128);
 }
 .btn {
     width: 160px;
@@ -123,14 +141,15 @@ h1{
     font-size: 17px;
     margin-top: 30px;
     margin-left: 90px;
-    font-weight: 600;
-    background:rgb(255, 255, 255);
-    color:rgba(25, 27, 128, 0.842);
+    font-weight: 700;
+    background: rgb(25 27 128);
+    color:rgba(255, 255, 255, 0.842);
 }
 .btn:hover{
-    background: rgba(25, 27, 128, 0.842);
-    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: rgb(0 143 211);
     transition: 0.7s;
     font-size: 18px;
     font-weight: 700;
+    border: 1px solid rgb(25 27 128);
 }
