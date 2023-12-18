@@ -7,10 +7,10 @@
 }
 .contact-form{
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
     z-index: 0;
     background:rgb(0 143 211);
-    padding: 30px;
+    padding: 5px;
     justify-content: center;
     display: grid;
     grid-template-rows: 1fr auto 1fr;
@@ -18,6 +18,7 @@
 }
 .container{
     max-width: 800px;
+    max-height: 400px;
     margin-top: 0 auto;
 }
 .contact-form h1{
@@ -60,6 +61,50 @@
 }
 .form-img img{
     max-width: 100%;
+}
+.info-details {
+    list-style: none;
+    margin: 20px 0px;
+}
+.info-details li {
+    margin-top: 25px;
+    font-size: 18px;
+    color:#fff;
+}
+.info-details li i {
+    background: rgb(0 143 211);
+    padding: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.info-details li a {
+    color: #000000;
+    text-decoration: none;
+}
+.info-details li a:hover {
+    color: #F44770;
+}
+.social-icons {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0px;
+}
+.social-icons li {
+    display: inline-block;
+}
+.social-icons li i {
+    background: rgb(0 143 211);
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 22%;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.social-icons li i:hover {
+    background: #fff;
+    color: #000000;
 }
 .btn,
 button,
